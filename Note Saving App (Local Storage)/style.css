@@ -1,0 +1,55 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #310331;
+    color: pink;
+}
+
+textarea {
+    background-color: pink;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: #310331;
+}
+
+#btn {
+    padding: 10px;
+    background-color: pink;
+    color: #310331;
+    border-radius: 20px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+#btn:hover, .deleteBtn:hover {
+    background-color: #310331;
+    color: pink;
+    box-shadow: 2px 2px 10px pink;
+}
+
+.noteContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center
+}
+
+.note-card {
+    color: #310331;
+    background-color: pink;
+    padding: 15px;
+    height: 100px;
+    width: 400px;
+    border: 2px solid #310331;
+    border-radius: 18px;
+}
+
+.deleteBtn {
+    padding: 8px;
+    background-color: pink;
+    color: #310331;
+    border-radius: 20px;
+    cursor: pointer;
+}
